@@ -1,0 +1,25 @@
+
+//Ejercicio 8
+//Gutierrez Espinosa Annette 2S12
+
+package cubo;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Cubo {
+
+    public static void main(String[] args) throws IOException {
+     int x,cubo;
+     
+     BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+        System.out.println("Ingrese un número: ");
+     x= Integer.parseInt(br.readLine());
+     
+     cubo=x*x*x;
+        System.out.println("El cubo es: "+cubo);
+     
+    }
+    
+}
